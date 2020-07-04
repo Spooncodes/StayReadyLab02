@@ -1,13 +1,9 @@
 package com.codedifferently;
 
-/**
- * Hello world!
- *
- */
-public class SciCalculator 
-{
-    public static void main( String[] args )
-    {
-        
+public class SciCalculator {
+    protected static double currentValue;
+
+    protected static void setCurrentValue(double value) {
+        currentValue = value;
     }
 }
